@@ -1,0 +1,26 @@
+    Select Case lngResult
+        Case 1
+            The call succeeded and the message was sent
+        Case 2
+            A recipient matched more than one of the recipient descriptor structures and MAPI_DIALOG was not set. No message was sent
+        Case 3
+            The specified attachment was not found. No message was sent.
+        Case 4
+            The specified attachment could not be opened. No message was sent
+        Case 5
+            One or more unspecified errors occurred. No message was sent
+        Case 6
+            There was insufficient memory to proceed. No message was sent.
+        Case 7
+            There was no default logon, and the user failed to log on successfully when the logon dialog box was displayed. No message was sent.
+        Case 8
+            The text in the message was too large. No message was sent.
+        Case 9
+            There were too many file attachments. No message was sent.
+        Case 10
+            There were too many recipients. No message was sent.
+        Case 11
+            A recipient did not appear in the address list. No message was sent.
+        Case 12
+            The user canceled the process. No message was sent.
+    End Select
